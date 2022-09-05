@@ -8,6 +8,6 @@ resource "google_container_cluster" "primary" {
   resource_labels          = {
     environment            = "development"
     created-by             = "terraform"
-    owner                  = "vfarcic"
+    owner                  = "ashik9001"
   }
 }

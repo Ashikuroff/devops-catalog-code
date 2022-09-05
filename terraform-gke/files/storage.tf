@@ -6,6 +6,6 @@ resource "google_storage_bucket" "state" {
   labels        = {
     environment = "development"
     created-by  = "terraform"
-    owner       = "vfarcic"
+    owner       = "ashik9001@gmail.com"
   }
 }
